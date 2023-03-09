@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Select Countries</h1>
+    <div class="count">
+        <select></select>
+    </div>
+
+
+    <style>
+        h1{
+            text-align: center;
+            margin-top: 200px;
+        }
+        h1::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: black;
+        }
+        h1::before{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: black;
+        }
+        .count {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        select {
+            padding: 10px 20px;
+        }
+
+        body {
+            background: rgb(174, 238, 196);
+            background: radial-gradient(circle, rgba(174, 238, 196, 1) 0%, rgba(148, 233, 214, 1) 100%);
+        }
+    </style>
+
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
